@@ -1,0 +1,69 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.login_image {
+    width: 100px;
+    margin: 20px auto;
+    object-fit: contain;
+}
+.login_container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: fit-content;
+}
+.login_container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.login_container > form > h5 {
+    margin-bottom: 5px;
+}
+.login_container > form > input {
+    height: 25px;
+    width: 98%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.login_container > p {
+    font-size: 12px;
+    margin-top: 15px;
+}
+.login_signinButton {
+    width: 100%;
+    border: 1px solid;
+    color: #111;
+    background-image: linear-gradient(to bottom, rgba(240,193,75,0.6),#f0c14b);
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.login_signinButton:hover {
+    background-image: linear-gradient(to bottom, rgba(240,193,75,0.9),#f0c14b);
+}
+.login_signupButton {
+    border-radius: 2px;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+.login_signupButton:hover {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,1), rgba(0,0,0,0.1));
+}
+
+.login_loading {
+    display: none;
+    margin: 20px;
+    opacity: 0.6;
+}
